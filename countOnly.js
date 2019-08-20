@@ -13,21 +13,3 @@ const countOnly = function(allItems, itemsToCount) {
 
   return results;
 };
-
-const firstNames = [
-  "Karl",
-  "Salima",
-  "Agiuhanna",
-  "Fang",
-  "Kavith",
-  "Jason",
-  "Salima",
-  "Fang",
-  "Joe"
-];
-
-const result1 = countOnly(firstNames, {"Jason": true, "Karima": true, "Fang": true});
-console.log(result1);
-console.log(result1.Jason);
-console.log(result1.Karima);
-console.log(result1.Fang);
