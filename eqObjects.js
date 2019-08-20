@@ -25,26 +25,3 @@ const eqArrays = function(arrActual, arrExpected) {
   
   return true;
 };
-
-
-//tests
-const a = {
-  a: "1",
-  b: "1.5",
-  c: [1, 2, 3]
-};
-
-const b = {
-  a: "1",
-  b: "2",
-  c: "3"
-};
-
-const c = {
-  a: "1",
-  b: "1.5",
-  c: [1, 2, 3]
-};
-
-console.log(eqObjects(a, b)); //false
-console.log(eqObjects(a, c)); //true
