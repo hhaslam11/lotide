@@ -1,13 +1,4 @@
-//eqArray.js
-const eqArrays = function(arrActual, arrExpected) {
-  if (arrActual.length !== arrExpected.length) return false;
-  
-  for (let i = 0; i < arrActual.length; i++)
-    if (arrActual[i] !== arrExpected[i]) return false;
-  
-  return true;
-};
-
+const eqArray = require('./eqArrays');
 
 const eqObjects = function(object1, object2) {
   
@@ -18,7 +9,7 @@ const eqObjects = function(object1, object2) {
 
     //if object1[objectIndex] is an array, compare using eqArray()
     if (Array.isArray(object1[objectIndex])) {
-      if (!eqArrays(object1[objectIndex], object2[objectIndex])) return false;
+      if (!eqArray(object1[objectIndex], object2[objectIndex])) return false;
       
     //if object1[objectIndex] is another object, compare using recursion
     } else if (typeof object1[objectIndex] === 'object') {
@@ -28,8 +19,8 @@ const eqObjects = function(object1, object2) {
     //if object1[objectIndex] is not an array, compare using ===
     } else if (object1[objectIndex] !== object2[objectIndex]) return false;
     
-
   }
   return true;
 };
 
+module.exports = eqObjects;

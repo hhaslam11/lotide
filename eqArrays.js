@@ -13,3 +13,5 @@ const eqArrays = function(arrActual, arrExpected) {
   
   return true;
 };
+
+module.exports = eqArrays;
