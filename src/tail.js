@@ -1,3 +1,1 @@
-const tail = function(arr) {
-  return arr.slice(1);
-};
+module.exports = x => (x === undefined ? x : x.slice(1));
