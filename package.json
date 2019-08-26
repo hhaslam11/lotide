@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@hhaslam11/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "A mini clone of the [Lodash](https://lodash.com) library.",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/hhaslam11/lotide.git"
   },
-  "author": "",
+  "author": "Kaleb Haslam (@hhaslam11)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/hhaslam11/lotide/issues"
