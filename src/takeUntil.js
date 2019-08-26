@@ -8,3 +8,5 @@ const takeUntil = function(arr, cb) {
   
   return returnArr;
 };
+
+module.exports = takeUntil;

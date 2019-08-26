@@ -16,3 +16,5 @@ const flatten = function(arr) {
   }
   return flatArr;
 };
+
+module.exports = flatten;

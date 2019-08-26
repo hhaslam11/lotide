@@ -13,3 +13,5 @@ const without = function(source, valuesToRemove) {
   }
   return filteredArray;
 };
+
+module.exports = without;

@@ -5,3 +5,5 @@ const map = function(arr, cb) {
   }
   return results;
 };
+
+module.exports = map;

@@ -7,3 +7,5 @@ const eqArrays = function(arrActual, arrExpected) {
   
   console.log(isEqual ? `✅ Assertion passed -  ${arrActual} = ${arrExpected}` : `🛑 Assertion failed - ${arrActual} != ${arrExpected}`);
 };
+
+module.exports = eqArrays;

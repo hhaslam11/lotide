@@ -4,3 +4,5 @@ const findKeyByValue = function(objectToSearch, value) {
   }
   return undefined;
 };
+
+module.exports = findKeyByValue;
