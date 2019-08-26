@@ -1,4 +1,6 @@
 const countLetters = function(inputString) {
+  if (!inputString) return undefined;
+  
   const results = {};
   for (let letter of inputString) {
     if (letter === ' ') continue; //skip spaces

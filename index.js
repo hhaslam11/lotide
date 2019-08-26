@@ -1,7 +1,4 @@
 module.exports = {
-  assertArraysEqual: require('./src/assertEqualArrays'),
-  assertEqual: require('./src/assertEqual'),
-  assertObjectsEqual: require('./src/assertObjectsEqual'),
   countLetters: require('./src/countLetters'),
   countOnly: require('./src/countOnly'),
   eqArrays: require('./src/eqArrays'),
