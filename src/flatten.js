@@ -1,4 +1,7 @@
 const flatten = function(arr) {
+  if (!arr) return undefined;
+  if (!Array.isArray(arr)) throw new Error('Input is not an array');
+
   let flatArr = [];
   for (let i in arr) {
 
