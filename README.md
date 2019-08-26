@@ -26,9 +26,6 @@ This project was created and published by me as part of my learnings at Lighthou
 
 The following functions are currently implemented:
 
-* `assertEqual(actual, expected)`: Gives visual assertion
-* `assertEqualArray(actual, expected)`: Gives visual assertion on arrays
-* `assetObjectsEqual(actual, expected)`: Gives visual assertion on objects
 * `countLetters(string)`: returns an object with the amount of times each letter occurs
 * `countOnly(object, thingToCount)`: counts how many times 'thingToCount' appears in object/array
 * `eqArray(array1, array2)`: compares two arrays and returns true or false if theyre equal or not
