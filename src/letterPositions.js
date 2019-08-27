@@ -1,4 +1,6 @@
 const letterPositions = function(sentence) {
+  if (!sentence && sentence !== '') return undefined;
+
   const results = {};
   for (let i = 0; i < sentence.length; i++) {
     if (sentence[i] === ' ') continue; //skip spaces
