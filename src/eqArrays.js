@@ -1,4 +1,6 @@
 const eqArrays = function(arrActual, arrExpected) {
+  if (!arrActual || !arrExpected) return undefined;
+  
   if (arrActual.length !== arrExpected.length) return false;
   
   for (let i = 0; i < arrActual.length; i++) {
