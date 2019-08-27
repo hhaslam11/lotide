@@ -10,7 +10,7 @@ const countOnly = function(allItems, itemsToCount) {
       }
     }
   }
-
+  if (Object.keys(results).length === 0) return undefined;
   return results;
 };
 
